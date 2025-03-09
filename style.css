@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e9eaea 0%, #d7f7e2 100%);
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.header img {
+    width: 50%;
+    height: 50%;
+    margin-left: 1rem;
+}
+
+.header h1 {
+    color: #28383c;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Formulário */
+.form {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.form input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: #6dd197;
+    box-shadow: 0 0 0 3px rgba(109, 209, 151, 0.2);
+}
+
+/* Botões */
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-primeiro {
+    background-color: #28383c;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-primeiro:hover {
+    background-color: #6dd197;
+    color: #28383c;
+}
+
+.btn-segundo {
+    background-color: #28383c;
+    color: #6dd197;
+    font-weight: 600;
+}
+
+.btn-segundo:hover {
+    background-color: #6dd197;
+    color: #28383c;
+}
+
+.btn-reiniciar {
+    background-color: #6dd197;
+    color: #28383c;
+    font-weight: 600;
+}
+
+.btn-reiniciar:hover {
+    background-color: #28383c;
+    color: #6dd197;
+}
+
+/* Colunas de amigos e resultados */
+.colunas-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+
+.amigos-container, .resultado-container {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.amigos-title, .resultado-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #28383c;
+    text-align: center;
+}
+
+.amigo-lista, .resultado-lista {
+    min-height: 100px;
+    text-align: center;
+    color: #28383c;
+    font-weight: 600;
+}
+
+/* Container dos botões */
+.botoes-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <header class="header">
+            <img src="assets/amigo-secreto.png" alt="Ícone do Amigo Secreto">
+            <h1>Amigo Secreto</h1>
+        </header>
+
+        <!-- Formulário para adicionar amigos -->
+        <form class="form">
+            <input type="text" name="name" id="name" placeholder="Digite o nome do amigo" required>
+            <button type="submit" class="btn btn-primeiro">Adicionar</button>
+        </form>
+
+        <!-- Colunas para listar amigos e resultados -->
+        <section class="colunas-container">
+            <div class="amigos-container">
+                <h2 class="amigos-title">Amigos</h2>
+                <ul class="amigo-lista"></ul> <!-- Alterado para <ul> para lista semântica -->
+            </div>
+            <div class="resultado-container">
+                <h2 class="resultado-title">Resultado do Sorteio</h2>
+                <ul class="resultado-lista"></ul> <!-- Alterado para <ul> para lista semântica -->
+            </div>
+        </section>
+
+        <!-- Botões de ação -->
+        <div class="botoes-container">
+            <button class="btn btn-segundo">Sortear Amigo Secreto</button>
+            <button class="btn btn-reiniciar">Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
