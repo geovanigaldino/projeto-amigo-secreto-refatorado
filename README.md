@@ -19,5 +19,8 @@ Este projeto é um sistema de sorteio de amigo secreto desenvolvido durante o de
 - CSS: Estilização e design responsivo.
 - JavaScript: Lógica de programação e interação com o usuário.
 
+## 🎯 Confira o Projeto Online  
+🔗 [Acesse aqui](https://projeto-amigo-secreto-refatorado.vercel.app/)
+
 ## 💬 Feedback
 Sinta-se à vontade para abrir uma issue no repositório ou entrar em contato comigo para sugestões, críticas ou dúvidas.😊
