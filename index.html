@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎁 Amigo Secreto</title>
+    <title>Amigo Secreto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
 
         <!-- Formulário para adicionar amigos -->
         <form class="form">
-            <input type="text" name="name" id="name" placeholder="Digite o nome do amigo" required>
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="Digite o nome do amigo" required>
             <button type="submit" class="btn btn-primeiro">Adicionar</button>
         </form>
 
@@ -24,11 +24,11 @@
         <section class="colunas-container">
             <div class="amigos-container">
                 <h2 class="amigos-title">Amigos</h2>
-                <ul class="amigo-lista"></ul> <!-- Alterado para <ul> para lista semântica -->
+                <ul class="amigo-lista"></ul> 
             </div>
             <div class="resultado-container">
                 <h2 class="resultado-title">Resultado do Sorteio</h2>
-                <ul class="resultado-lista"></ul> <!-- Alterado para <ul> para lista semântica -->
+                <ul class="resultado-lista"></ul>
             </div>
         </section>
 
